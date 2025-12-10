@@ -46,7 +46,7 @@ RFM Backend API adalah sistem backend berbasis Flask yang dirancang untuk melaku
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/username/rfm-backend.git
+git clone https://github.com/B-Occasion/Customer-Segmentation.git
 cd rfm-backend
 ```
 
@@ -105,7 +105,7 @@ Script ini akan membuat tabel:
 python app.py
 ```
 
-Server akan berjalan di: **http://127.0.0.1:5000**
+Server akan berjalan di: **http://127.0.0.1:5000** (untuk pertama kali pertlu ditunggu sedikit)
 
 ## 📚 API Documentation
 
@@ -131,9 +131,9 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-  "username": "admin",
-  "email": "admin@test.com",
-  "password": "admin123"
+  "username": "user",
+  "email": "user@test.com",
+  "password": "user123"
 }
 ```
 
@@ -156,8 +156,8 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-  "identifier": "admin",
-  "password": "admin123"
+  "identifier": "user",
+  "password": "user123"
 }
 ```
 
